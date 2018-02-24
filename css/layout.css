@@ -34,7 +34,7 @@ nav ul {
 
 #tagline {
 	display: grid;
-	height: 80vh; 
+	min-height: 80vh; 
 	grid-template-columns: 1fr 1fr 1fr;
 	padding: 5rem;
 	grid-gap: 2rem; 
@@ -50,14 +50,14 @@ nav ul {
 	}
 
 #bio { 
-	height: 50vh;
+	min-height: 50vh;
 	padding: 5rem; 
  }
 
 
 #projects {
 	display: grid;
-	height: 50vh; 
+	min-height: 50vh; 
 	padding: 5rem;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
@@ -74,27 +74,17 @@ nav ul {
 			}
 	.samples {
 		display: grid;
-		height: 50vh;
 		padding: 5rem;
 		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 5rem;
 	}
 		.samplestitle {
 			grid-column: 1/-1;
 		}
-		.samples ul {
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
-				align-items: center;
-				list-style-type: none;
-			}
-			.samples ul li{
-				padding: 10px;
-				border: solid blue 1px;
-			}
+
 
 #contact { 
-	height: 50vh;
+	min-height: 50vh;
 	align-self: center; 
  }
 
