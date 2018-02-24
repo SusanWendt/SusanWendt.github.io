@@ -1,10 +1,13 @@
+nav ul li a{
+	color: white; 
+}
 nav a:hover {
-	color: DarkSlateGrey; 
+	background-color: lightslategray; 
+	text-decoration: none; 
 }
 
 header {
-	background-color: silver; 
-	background: linear-gradient(to top, aliceblue, silver);
+	background: linear-gradient(to bottom, black, #993366);
 }
 
 #headshot {
@@ -27,9 +30,9 @@ header {
 	height: 50px;
 	width: 50px;
 }
-#vpa, #reviews, #review {
-	width: 300px;
-	height: 150px;
+#vpa, #reviews, #review, #fizzbuzz {
+	width: 250px;
+	height: 125px;
 }
 
 .container {
