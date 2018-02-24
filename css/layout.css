@@ -50,8 +50,8 @@ nav ul {
 	}
 
 #bio { 
-	height: 100vh;
-	padding: 10rem; 
+	height: 50vh;
+	padding: 5rem; 
  }
 
 
@@ -78,6 +78,9 @@ nav ul {
 		padding: 5rem;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+		.samplestitle {
+			grid-column: 1/-1;
+		}
 		.samples ul {
 				display: flex;
 				flex-direction: row;
@@ -91,14 +94,14 @@ nav ul {
 			}
 
 #contact { 
-	height: 50vh; 
+	height: 50vh;
+	align-self: center; 
  }
 
  .contactinfo ul {
 	display: flex;
 	flex-direction: row; 
 	justify-content: space-around;
-	align-items: flex-end;
 	list-style-type: none;
 }
 

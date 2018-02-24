@@ -10,7 +10,7 @@ Build the document structure
 	[X] an appropriate <header> element
 	[X] a <nav> element linking to each of the sections
 	[X] an <h1> element with your page title (there can be only one)
-	[] a <section> element for each of the following, each of which should contain an appropriate heading element:
+	[X] a <section> element for each of the following, each of which should contain an appropriate heading element:
 		[X] About Me, consisting of:
 			[X] brief biographical information
 			[X] photo
