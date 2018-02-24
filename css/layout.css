@@ -4,25 +4,22 @@
 
 .container {
 	display: grid;
-	grid-template-rows: 200px auto 100px;
-	margin: 10rems;
+	grid-template-rows: 150px auto 50px;
+	margin: 5px;
     padding: 20px;
 	grid-gap: var(--grid-gap);
+	background-color: pink; 
 }
 
 header {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 }
-
-	.logo {
-	text-align: center;
-	}
-
-	.wrapper {
-		
-	}
+#logo {
+	display: flex;
+	align-self: flex-start;
+}
 
 nav ul {
 	display: flex;
@@ -35,22 +32,60 @@ nav ul {
 		nav a {
 			display: block;
 		}
+
 #tagline {
 	display: grid;
 	height: 80vh; 
 	grid-template-columns: 1fr 1fr 1fr;
-	padding: 10px
 }
+	#headshot {
+		display: flex;
+		margin: auto;
+	}
+	.introtext{
+		text-align: center;
+		align-self: center;
+		padding: 10px; 
+	}
 
-#headshot {
+#bio { 
+	height: 100vh; 
+ }
+
+#contact { 
+	height: 100vh; 
+ }
+
+ .contactinfo ul {
 	display: flex;
-	align-self: center;
-	margin: auto;
+	flex-direction: row; 
+	justify-content: space-around;
+	align-items: flex-end;
+	list-style-type: none;
 }
 
-.introtext{
-	text-align: center;
-	align-self: center;
+#projects {
+	display: grid;
+	height: 100vh; 
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(2, 1fr);
+}
+	.projectstext {
+		display: flex;
+		margin: auto;
+	}
+	.techtext{
+		text-align: center;
+		align-self: center;
+		padding: 10px; 
+	}
+
+.list ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
 }
 
 footer { 
