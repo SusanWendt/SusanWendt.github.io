@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 :root {
     --grid-gap: 20px;
 }
@@ -9,8 +5,8 @@
 .container {
 	display: grid;
 	grid-template-rows: 200px auto 100px;
-	margin: 2rems;
-    padding: 10px;
+	margin: 10rems;
+    padding: 20px;
 	grid-gap: var(--grid-gap);
 }
 
@@ -20,18 +16,44 @@ header {
 	align-items: center;
 }
 
+	.logo {
+	text-align: center;
+	}
+
+	.wrapper {
+		
+	}
+
 nav ul {
 	display: flex;
 	flex-direction: row; 
 	list-style-type: none;
 }
 	nav li {
-		margin: 0 0.5em;
+		margin: 0.5rem;
 	}
 		nav a {
 			display: block;
 		}
+#tagline {
+	display: grid;
+	height: 80vh; 
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 10px
+}
+
+#headshot {
+	display: flex;
+	align-self: center;
+	margin: auto;
+}
+
+.introtext{
+	text-align: center;
+	align-self: center;
+}
 
 footer { 
-	display: grid; 
+	display: flex; 
+	justify-content: center;
  }

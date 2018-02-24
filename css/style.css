@@ -1,3 +1,11 @@
 nav a:hover {
 	color: DarkSlateGrey; 
 }
+
+#headshot {
+	height: 400px;
+	width: 400px;
+	border-radius: 80px;
+	border:2px solid rosybrown;
+	text-align: center; 
+}
