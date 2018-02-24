@@ -7,16 +7,15 @@
 .container {
 	display: grid;
 	grid-template-rows: 150px auto 50px;
-	padding: 1rem; 
 }
 
 header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
-#logo {
+#swlogo {
 	display: flex;
 	align-self: flex-start;
 }
@@ -37,6 +36,8 @@ nav ul {
 	display: grid;
 	height: 80vh; 
 	grid-template-columns: 1fr 1fr 1fr;
+	padding: 5rem;
+	grid-gap: 2rem; 
 }
 	#headshot {
 		display: flex;
@@ -49,15 +50,17 @@ nav ul {
 	}
 
 #bio { 
-	height: 100vh; 
+	height: 100vh;
+	padding: 10rem; 
  }
 
 
 #projects {
 	display: grid;
-	height: 100vh; 
+	height: 50vh; 
+	padding: 5rem;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 20px;
 }
 	.projectstext {
 		text-align: center;
@@ -66,21 +69,24 @@ nav ul {
 				display: flex;
 				flex-direction: column;
 				justify-content: space-around;
-				align-items: center;
+				align-items: flex-start;
 				list-style-type: none;
 			}
-	.list {
-		grid-column: 1/-1;
+	.samples {
+		display: grid;
+		height: 50vh;
+		padding: 5rem;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
-		.list ul {
+		.samples ul {
 				display: flex;
 				flex-direction: row;
 				justify-content: space-around;
 				align-items: center;
 				list-style-type: none;
 			}
-			.list ul li{
-				padding: 100px;
+			.samples ul li{
+				padding: 10px;
 				border: solid blue 1px;
 			}
 
@@ -98,10 +104,13 @@ nav ul {
 
 footer { 
 	display: flex; 
+	flex-direction: row-reverse;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
  }
 
-.Copyright {
-	align-self: flex-end;
+ .Copyright {
+	margin-left: 2rem;
 }
+
+

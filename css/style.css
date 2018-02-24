@@ -5,16 +5,19 @@ nav a:hover {
 header {
 	background-color: silver; 
 	background: linear-gradient(to top, aliceblue, silver);
-	border-radius: 5px;
 }
 
 #headshot {
 	height: 400px;
 	width: 400px;
-	border-radius: 80px;
+	border-radius: 50%;
 	text-align: center; 
 }
 
+#swlogo {
+	height: 200px;
+	width: 200px;
+}
 #linkedinicon, #githubicon, #emailicon{
 	height: 200px;
 	width: 200px;
@@ -23,4 +26,24 @@ header {
 #arrow {
 	height: 50px;
 	width: 50px;
+}
+
+.container {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h2, h3, {
+	display: flex;
+	justify-content: center; 
+	margin-bottom: 1rem; 
+}
+
+h1 {
+	color: white;
+	font-size: 40px; 
+	text-shadow: 2px 2px black;
+}
+h4, h5, h6 {
+	display: flex;
+	justify-content: flex-start;
 }
