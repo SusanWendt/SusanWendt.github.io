@@ -2,15 +2,25 @@ nav a:hover {
 	color: DarkSlateGrey; 
 }
 
+header {
+	background-color: silver; 
+	background: linear-gradient(to top, aliceblue, silver);
+	border-radius: 5px;
+}
+
 #headshot {
 	height: 400px;
 	width: 400px;
 	border-radius: 80px;
-	border:2px solid rosybrown;
 	text-align: center; 
 }
 
 #linkedinicon, #githubicon, #emailicon{
 	height: 200px;
 	width: 200px;
+}
+
+#arrow {
+	height: 50px;
+	width: 50px;
 }
