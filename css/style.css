@@ -1,13 +1,14 @@
 nav ul li a{
 	color: white; 
+	text-decoration: none;
 }
 nav a:hover {
-	background-color: lightslategray; 
+	color: lightslategray; 
 	text-decoration: none; 
 }
 
 header {
-	background: linear-gradient(to bottom, black, #993366);
+	background: linear-gradient(to bottom, aliceblue, silver);
 }
 
 #headshot {
@@ -47,7 +48,9 @@ h2, h3 {
 
 h1 {
 	color: white;
-	font-size: 40px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h4, h5, h6 {
