@@ -76,17 +76,11 @@ nav ul {
 		display: grid;
 		padding: 5rem;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 5rem;
+		grid-gap: 2rem;
 	}
 		.samplestitle {
 			grid-column: 1/-1;
 		}
-
-		.samples article button{
-			display: flex;
-			justify-content: center;
-		}
-
 
 #contact { 
 	min-height: 50vh;

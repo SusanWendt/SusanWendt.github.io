@@ -18,20 +18,20 @@ Build the document structure
 			[X] links to your professional networking site profiles, including at least GitHub and LinkedIn
 			[X] list of skills
 			[] Include whatever other information you consider pertinent.
-		[] Projects, consisting of at least three, each represented as an <article>
+		[X] Projects, consisting of at least three, each represented as an <article>
 			[X] name of project, linked to GitHub repository or the repository/project’s GitHub Pages screenshot
 			[X] skills / technologies used
 	[X] an appropriate <footer> element
 
 Lay out and style your portfolio
-	[] Assign ids/classes to sections/etc, then use css grid to lay out your page. Reference MDN and this tutorial to work out how to use grid: http://cssgridgarden.com/
-	[] To contain the elements of your grid, you will want to create a <div>, something like <div id="container">...</div>.
-	[] Create CSS rules to style page elements appropriately.
+	[X] Assign ids/classes to sections/etc, then use css grid to lay out your page. Reference MDN and this tutorial to work out how to use grid: http://cssgridgarden.com/
+	[X] To contain the elements of your grid, you will want to create a <div>, something like <div id="container">...</div>.
+	[X] Create CSS rules to style page elements appropriately.
 
 Using online resources
 	Any resources (images, etc) you use should be:
-		[] free for non-commercial use
-		[] copied to your repository and referenced there rather than via a uri pointing to another site
+		[X] free for non-commercial use
+		[X] copied to your repository and referenced there rather than via a uri pointing to another site
 
 Rubric
 [x/10] project hosted on username.github.io
