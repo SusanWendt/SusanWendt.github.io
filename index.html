@@ -7,114 +7,95 @@
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/layout.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Alice|Sacramento" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Arimo|Pacifico" rel="stylesheet">
 	</head>
 	
 	<body >
-		<div class="container">
+		<div class="container">	
 			<header id = "top">
 					<img id="logo" src="./images/swlogo.png" alt = "no image found"> 
 					<h1>Susan Wendt</h1>
 				<nav>
 					<ul>
 						<li><a href="#bio">About Me</a></li>
-						<li><a href="#projects">Projects</a></li>
+						<li><a href="#bio">Skills</a></li>
 						<li><a href="#contact">Contact</a></li>
+						<li><a href="#projects">Projects</a></li>
 					</ul>
 				</nav>
 
 			</header>
 
 		<main>
-	
-			<div class="overlay"></div>
-
 			<section id="intro"> 
-					<img id = "headshot" src="images/headshot.jpg" alt="no image found">
-					<div class="introtext">
-						<h3>Front End</h3>
-						<p>I can build websites that look like this.</p>
-					</div> <!-- introtext end -->
-					<div class="introtext">
-						<h3>Back End</h3>
-						<p>I can also use Java and Spring MVC to connect the website to a database.</p>
-					</div> <!-- introtext end-->
-				</section> <!-- end intro section -->
-				<section id="bio">
-					<div class="biotext">
-						<h2>About Me</h2>
-						</br> 
-						<p>I am scheduled to complete a full-stack Software Development Apprenticeship at We Can Code IT this April 2018. In this accelerated coding boot camp, I am learning the foundations of Object Oriented Programming and Test Driven Development within an Agile team environment. The primary languages I focus on are Java, SQL, HTML5, CSS3, and JavaScript. </p>
-						</br> 
-						<p>Previously, I graduated Magna Cum Laude from Ohio State University with a Bachelors of Arts in Communications major and Spanish minor. </p>
-						</br> 
-						<p>After graduation I worked for two non profits in the Human Resources and Corporate Relation departments.That expereince led me to become a Technical Recruiter which inspired me to make the career change, choosing to become a Software Developer.</p>
-						</br> 
-						<p>When I am not honing my coding skills in the Information Technology industry, I enjoy being outside with my dog or riding my bike.</p>
-						</br> 
-						<p>A personal accomplishment that I am incredibly proud of is that I am a 200hr certified Yoga Teacher. I completed this training at Yoga on High in Columbus, OH in the Summer of 2017. Since then, I have taught weekly yoga sessions at a Columbus Park and Rec Center to adult beginners and, my favorite class to teach, Yoga for Kids. Additionally, I work at a power yoga studio, Core Power Yoga. </p>
-						</br> 
-						<p>My dog, Pip, is my world. The most pressing pursuit on my //TODO list is to build him the instagram that he deserves!</p>
-						<img id = "dog" src="images/pippy.jpg" alt="no image found">
-						
-						</br> 
-					</div> <!-- biotext end-->
-				</section> <!--bio end-->
+				<img id = "headshot" src="images/headshot.jpg" alt="no image found">
+				<div class="bio">
+					<h2>About Me</h2>
+					<p>I am currently a Software Development Apprenticeship at We Can Code IT in Columbus, OH.</p>
+					</br> 
+					<p>Previously, I graduated Magna Cum Laude from Ohio State University with a Bachelors of Arts in Communications major and Spanish minor. </p>
+					</br> 
+					<p>After graduation I began working as a Technical Recruiter, developing a deeper understanding of the immense creativty and innovation housed within Information Technology, which inspired my career transition to pursue a future as a Software Developer.</p>
+					</br> 
+					<p> Beyond crafting code, I love my Sheltie named Pip, being outside on my bicycle, and teaching as a 200 hour certified Yoga Teacher. </p>
+				</div> <!-- introtext end -->
+				<div class="skills">
+					<h2>Skills</h2>
+					<ul>
+						<li>Languages: </li>
+						<li>Java</li>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>JavaScript</li>
+						<li>JavaScript</li>
+						<li>SQL</li>
+					</br>
+						<li>Tools: </li>
+						<li>Git</li>
+						<li>Eclipse</li>
+						<li>Sublime</li>
+						<li>jQuery</li>
+						<li>Spring Web MVC</li>
+					</br>
+						<li>Environment: </li>
+						<li>TDD</li>
+						<li>Agile</li>
+					</ul>
+				</div> <!-- introtext end-->
+			</section> <!-- end intro section -->
 			
-				<section id="contact">
-					<div class="contactinfo">
-					<h2>Contact</h2>
-						<ul>
-							<li><a href="mailto:susanhwendt@gmail.com?Subject=Hello"><img id = "emailicon" src="./images/email.png"></a></li>
-							<li><a href="https://www.linkedin.com/in/susan-wendt/" target="_blank"><img id = linkedinicon src="./images/linkedin.png"></a></li>
-							<li><a href="https://github.com/SusanWendt" target="_blank"><img id = "githubicon" src="./images/github.png"></a></li>
-						</ul>
-					</div> <!-- end contactinfo div -->
-				</section> <!-- end contactinfo section -->
+			<section id="contact" class="contactinfo">
+				<h2>Let's Stay in Touch...</h2>
+					<ul>
+						<li><a href="mailto:susanhwendt@gmail.com?Subject=Hello"><img id = "emailicon" src="./images/email.png"></a></li>
+						<li><a href="https://www.linkedin.com/in/susan-wendt/" target="_blank"><img id = linkedinicon src="./images/linkedin.png"></a></li>
+						<li><a href="https://github.com/SusanWendt" target="_blank"><img id = "githubicon" src="./images/github.png"></a></li>
+					</ul>
+			</section> <!-- end contactinfo section -->
 
-				<section id="projects"> <!-- TODO make projects articles -->
-					<div class="projectstext">
-						<h2>Projects</h2>
-						<p>Below you will see previews and descriptoin of a few projects that I have worked on while learning to code at We Can Code IT. </p>
-					</div> <!-- end projectstext div -->
-					<div class="projectstext">
-						<h2>Technical Inventory</h2>
-						<ul>
-							<li><h4>Java Language Fundamentals:</h4></li>
-							<li>variables • data types • loops • boolean and conditional statements • exception handling • collections framework • I/O</li>
-							<li><h4>Object Oriented Programming: </h4></li>
-							<li>Java • classes and objects • abstraction • polymorphism • inheritance • encapsulation </li>
-							<li><h4>Web Application Development:</h4></li>
-							<li>HTML5 • CSS3 • JavaScript • jQuery • Spring Web MVC • Sublime </li>
-							<li><h4>Database Programming: </h4></li>
-							<li>Structured Query Language (SQL)</li>
-							<li><h4>Tools/Environment:</h4></li>
-							<li>Git • Eclipse • Agile • Test Driven Development (TDD) • Unit Testing (JUnit) </li>
-						</ul>
-					</div> <!-- end techtext div -->
-				</section> <!--end of projects-->
-
-				<section class="samples">
-					<div class="samplestitle"><h2>Examples of My Work</h2></div>
-					<article class = "exampletext">
-						<p><h4>Virtual Pets Amok:</h4></p>
-						<img id="vpa" src="./images/vpa.png" alt = "no image found">
-						<p>There are organic pets and robotic pets. All dogs can be walked at once and each has a cages. Cats share an area and use a common litter box. All pets have a health attribute. Organic pets have their health decreased by unclean circumstances, and by thirst or hunger growing too high. Robotic pets only lose health if they’re not oiled regularly. All pets lose health if their happiness drops too low.</p>
-						<a href="https://github.com/SusanWendt/virtual-pets-amok" target="_blank"><button>view on github</button></a>
-					</article>  <!-- end projectone div -->
-					<article class = "exampletext">
-						<p><h4>Review Site:</h4></p>
-						<img id="reviews" src="./images/reviews.png" alt = "no image found">
-						<img id="review" src="./images/review.png" alt = "no image found">
-						<p>This is a website built using Spring Web MVC for linking Java to Html. Very minimal CSS as the focus was learning Spring.</p>
-						<a href="https://github.com/SusanWendt/review-site" target="_blank"><button>view on github</button></a>
-					</article> <!-- end projectone div -->
-					<article class = "exampletext">
-						<p><h4>FizzBuzz:</h4></p>
-						<img id="reviews" src="./images/fizzbuzz.png" alt = "no image found">
-						<p>Basic excercise to demonstrate TDD.</p>
-						<a href="https://github.com/SusanWendt/fizz-buzz" target="_blank"><button>view on github</button></a>
-					</article> <!-- end projectone div -->
-				</section> <!--end of samples div-->
+			<section id = "projects" class="examples">
+				<div class="samplestitle"><h2>Examples of My Work</h2></div>
+				<article class = "virtualpets">
+					<p><h3>Virtual Pets Amok</h3></p>
+					<img id="dog" src="./images/pippy.jpg" alt = "no image found">
+					<p>There are organic pets and robotic pets. All dogs can be walked at once and each has a cages. Cats share an area and use a common litter box. All pets have a health attribute. Organic pets have their health decreased by unclean circumstances, and by thirst or hunger growing too high. Robotic pets only lose health if they’re not oiled regularly. All pets lose health if their happiness drops too low. Above pic is my actual dog. </p>
+					<a href="https://github.com/SusanWendt/virtual-pets-amok" target="_blank"><button>view on github</button></a>
+				</article>  <!-- end projectone div -->
+		
+				<article class = "fizzbuzz">
+					<p><h3>FizzBuzz</h3></p>
+					<img id="reviews" src="./images/fizzbuzz.png" alt = "no image found">
+					<p>Classic excercise to demonstrate Test Driven Development. User counts from one to one-hundred with a catch. For all multiples of three, the player must say "Fizz", and for all multiples of five, the player will say "Buzz". Can you guess what the user says when the number is both a multiple of three and five? FizzBuzz! Play with your kids to teach multiplication or invite friends over for drinks to challenge yourself! </p>
+					<a href="https://github.com/SusanWendt/fizz-buzz" target="_blank"><button>view on github</button></a>
+				</article> <!-- end projectone div -->
+				
+				<article class = "reviewsite">
+					<p><h3>Review Site</h3></p>
+					<img id="reviews" src="./images/yoga.jpg" alt = "no image found">
+					<p>This is a website built using Spring Web MVC for linking Java to Html. Very minimal CSS as the focus was learning Spring. I decided to review various yoga sources from journals and teachers to actual studios. Yoga can be practiced outside or indoors... and now reviewed on my site. The body of water is optional. </p>
+					<a href="https://github.com/SusanWendt/review-site" target="_blank"><button>view on github</button></a>
+				</article> <!-- end projectone div -->
+			</section> <!--end of examples div-->
 			
 		</main>
 		

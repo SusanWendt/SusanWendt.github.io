@@ -6,7 +6,7 @@
 
 .container {
 	display: grid;
-	grid-template-rows: 225px auto 50px;
+	grid-template-rows: 235px auto 50px;
 }
 
 	header {
@@ -43,34 +43,37 @@
 		display: flex;
 		margin: auto;
 	}
-	.introtext{
-		text-align: center;
+	
+	.bio{
 		align-self: center;
 		padding: 10px; 
 	}
 
-#bio { 
-	min-height: 50vh;
-	padding: 5rem; 
+	.skills{
+		text-align: center;
+		align-self: center;
+		padding: 10px; 
+	}
+		.skills ul {
+			list-style-type: none; 
+		}
+
+#contact { 
+	align-self: center; 
+ 	min-height: 50vh;
+ 	padding: 2rem; 
  }
 
-
-#projects {
-	display: grid;
-	min-height: 50vh; 
-	padding: 5rem;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 20px;
+ .contactinfo ul {
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 2rem; 
+	border: solid dimgray; 
+	border-radius: 10px; 
 }
-
-			.projectstext ul {
-				display: flex;
-				flex-direction: column;
-				justify-content: flex-start;
-				align-items: flex-start;
-				list-style-type: none;
-			}
-	.samples {
+	.examples {
 		display: grid;
 		padding: 5rem;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -80,17 +83,11 @@
 			grid-column: 1/-1;
 		}
 
-#contact { 
-	min-height: 50vh;
-	align-self: center; 
- }
-
- .contactinfo ul {
-	display: flex;
-	flex-direction: row; 
-	justify-content: space-around;
-	list-style-type: none;
-}
+		.virtualpets, .fizzbuzz, .reviewsite{ 
+			text-align: center;
+			border: solid dimgray;
+			border-radius: 5px; 
+		}
 
 footer { 
 	display: flex; 

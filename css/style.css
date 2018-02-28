@@ -12,15 +12,9 @@ header {
 }
 
 #headshot {
-	height: 400px;
-	width: 400px;
+	height: 350px;
+	width: 350px;
 	border-radius: 50%;
-	text-align: center; 
-}
-
-#dog {
-	height: 400px;
-	width: 400px;
 	text-align: center; 
 }
 
@@ -29,17 +23,19 @@ header {
 	width: 200px;
 }
 #linkedinicon, #githubicon, #emailicon{
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 }
 
 #arrow {
 	height: 50px;
 	width: 50px;
 }
-#vpa, #reviews, #review, #fizzbuzz {
-	width: 100%;
-	height: 125px;
+
+#dog, #vpa, #reviews, #review, #fizzbuzz {
+	height: 350px;
+	width: 350px;
+	text-align: center; 
 	border-radius: 2px; 
 }
 
@@ -47,7 +43,14 @@ header {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-h2, h3 {
+h2 {
+	display: flex;
+	justify-content: center; 
+	margin-bottom: 1rem; 
+	font-family: 'Pacifico', serif;
+}
+
+h3 {
 	display: flex;
 	justify-content: center; 
 	margin-bottom: 1rem; 
@@ -96,7 +99,7 @@ button:hover{
 
 /* repeating pattern overlay over image or solid color */
 [class*='-background'] > .overlay {
-    background-image: url(../images/patterns/tileable-wood.png);
+    background-image: url(../images/tileable-wood.png);
     background-repeat: repeat;
     height: 105vh;
     left: -5vw;
@@ -105,4 +108,13 @@ button:hover{
     top: -5vh;
     width: 105vw;
     z-index: -1;
+}
+
+.plus-bg {
+    background: radial-gradient(circle, transparent 20%, #E6B89C 20%, #E6B89C 80%, transparent 80%, transparent),
+        radial-gradient(circle, transparent 20%, #E6B89C 20%, #E6B89C 80%, transparent 80%, transparent) 50px 50px,
+        linear-gradient(#EAD2AC 8px, transparent 8px) 0 -4px,
+        linear-gradient(90deg, #EAD2AC 8px, transparent 8px) -4px 0;
+    background-color: #E6B89C;
+    background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
