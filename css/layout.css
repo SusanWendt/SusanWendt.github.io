@@ -61,7 +61,7 @@
 #contact { 
 	align-self: center; 
  	min-height: 50vh;
- 	padding: 2rem; 
+ 	padding: 5rem; 
  }
 
  .contactinfo ul {
@@ -86,7 +86,8 @@
 		.virtualpets, .fizzbuzz, .reviewsite{ 
 			text-align: center;
 			border: solid dimgray;
-			border-radius: 5px; 
+			padding: 5px; 
+			border-radius: 10px; 
 		}
 
 footer { 

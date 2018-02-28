@@ -71,14 +71,14 @@ h4, h5, h6 {
 }
 
 button{
-	background-color:#EAD2AC;
+	background-color:#C0DFD9;
 	text-decoration: none; 
 	color: black; 
 	padding: .5rem; 
 	border-radius: 10%; 
 }
 button:hover{
-	border: solid #E6B89C;
+	border: solid #9CAFB7;
 }
 
 /* fullscreen background image */
