@@ -32,9 +32,9 @@ Lay out and style your portfolio
 
 Using online resources
 	Any resources (images, etc) you use should be:
-	- [X] free for non-commercial use
-	- [X] copied to your repository and referenced there rather than via a uri pointing to another site
-	- [X] Test example
+- [X] free for non-commercial use
+- [X] copied to your repository and referenced there rather than via a uri pointing to another site
+- [X] Test example
 
 Rubric
 
