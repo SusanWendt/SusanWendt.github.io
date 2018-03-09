@@ -2,12 +2,12 @@ Professional Portfolio Overview
 
 ![Webpage preview](./images/webpagepreview.png)
 
-* Create a portfolio site highlighting your work that can be shared with potential employers. Focus first on building a good structure, then later style and lay out with with CSS.
+Create a portfolio site highlighting your work that can be shared with potential employers. Focus first on building a good structure, then later style and lay out with with CSS.
 
-* Tasks
+Tasks
 - [X] First, set up your username.github.io site as per the instructions at https://pages.github.com.
 
-* Build the document structure
+Build the document structure
 - [X] Create a main page (index.html) representing a professional portfolio, including the following:
 	- [X] an appropriate header element
 	- [X] a nav element linking to each of the sections
@@ -25,13 +25,13 @@ Professional Portfolio Overview
 			- [X] skills / technologies used
 	- [X] an appropriate footer element
 
-* Lay out and style your portfolio
+Lay out and style your portfolio
 	- [X] Assign ids/classes to sections/etc, then use css grid to lay out your page. 
 	- [X] To contain the elements of your grid, you will want to create a div, something like div id="container".../div.
 	- [X] Create CSS rules to style page elements appropriately.
 
-* Using online resources
-	* Any resources (images, etc) you use should be:
+Using online resources
+	Any resources (images, etc) you use should be:
 		- [X] free for non-commercial use
 		- [X] copied to your repository and referenced there rather than via a uri pointing to another site
 
