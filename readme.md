@@ -26,14 +26,14 @@ Build the document structure
 	- [X] an appropriate footer element
 
 Lay out and style your portfolio
-	- [X] Assign ids/classes to sections/etc, then use css grid to lay out your page. 
-	- [X] To contain the elements of your grid, you will want to create a div, something like div id="container".../div.
-	- [X] Create CSS rules to style page elements appropriately.
+- [X] Assign ids/classes to sections/etc, then use css grid to lay out your page. 
+- [X] To contain the elements of your grid, you will want to create a div, something like div id="container".../div.
+- [X] Create CSS rules to style page elements appropriately.
 
 Using online resources
 	Any resources (images, etc) you use should be:
-		- [X] free for non-commercial use
-		- [X] copied to your repository and referenced there rather than via a uri pointing to another site
+	- [X] free for non-commercial use
+	- [X] copied to your repository and referenced there rather than via a uri pointing to another site
 
 Rubric
 
