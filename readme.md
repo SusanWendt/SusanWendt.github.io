@@ -30,10 +30,9 @@ Lay out and style your portfolio
 - [X] To contain the elements of your grid, you will want to create a div, something like div id="container".../div.
 - [X] Create CSS rules to style page elements appropriately.
 
-Using online resources
-	Any resources (images, etc) you use should be:
-	- [X] free for non-commercial use
-	- [X] copied to your repository and referenced there rather than via a uri pointing to another site
+Using online resources, any resources (images, etc) you use should be:
+- [X] free for non-commercial use
+- [X] copied to your repository and referenced there rather than via a uri pointing to another site
 
 Rubric
 
