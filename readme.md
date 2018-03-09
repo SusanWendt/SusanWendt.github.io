@@ -36,17 +36,17 @@ Using online resources, any resources (images, etc) you use should be:
 
 Rubric
 
-Score | Description
------ | -----------
-[x/10] | project hosted on username.github.io
-[x/10] | index.html
-[x/8] | header element
-[x/7] | nav element
-[x/10] | use of Grid and Flexbox and not a framework
-[x/7] | section elements
-[x/8] | headings h1, h2 etc…
-[x/7] | About Me Section
-[x/7] | 3 Projects contained in article tags
-[x/8] | footer
-[x/8] | appropriate images for content
-[x/10] | style/formatting/code quality
+Category | Max Score
+-------- | ---------
+Project hosted on username.github.io | x/10
+Index.html | x/10
+Header element | x/8
+Nav element | x/7
+Use of Grid and Flexbox and not a framework | x/10
+Section elements | x/7
+Headings h1, h2 etc… | x/8
+About Me Section | x/7
+3 Projects contained in article tags | x/7
+Footer | x/8
+Appropriate images for content | x/8
+Style/formatting/code quality | x/10
