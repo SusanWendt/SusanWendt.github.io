@@ -4,46 +4,68 @@
     padding: 0;
 }
 
-.container {
-	display: grid;
-	grid-template-rows: 235px auto 50px;
+:root {
+	--blue: #39add1;
 }
 
-	header {
-		display: grid;
-		grid-template-columns: .25fr .5fr .25fr;
-		grid-template-rows: repeat(2, 1fr) ;
-	}
-		nav {
-			grid-column: 1/-1;
-			display: flex;
-			justify-content: flex-end;
-			background-color: dimgray;
-		}
-			nav ul {
-				display: flex;
-				flex-direction: row; 
-				list-style-type: none;
-			}
-				nav li {
-					margin: 0.5rem 0.5rem;
-				}
-					nav a {
-						display: block;
-					}
+.container {
+	display: grid;
+	grid-template-rows: 200px auto 50px;
+}
 
-	#intro {
+.container > header {
+	/*display: flex;
+	justify-content: space-between;*/
+	display: grid;
+	grid-template-columns: .1fr .8fr .1fr;
+	grid-template-rows: repeat(2, 1fr); 
+	border-bottom: 1px solid dimgray;
+}
+
+.container > header nav {
+	margin-right: 1rem;
+	position: relative;
+	grid-row: 2/-1; 
+	grid-column: 3/-1;
+}
+
+.container > header nav ul {
+	background-color: white;
+	display: none;
+}
+.container > header nav ul li {
+	margin-top: 1rem;
+	list-style: none;
+}
+.container > header nav ul li a {
+	color: var(--blue);
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+}
+.container > header nav ul li.active a {
+	background-color: var(--blue);
+	color: white;
+}
+.container > header nav ul li:first-child {
+	margin-left: 0;
+}
+.nav-menu {
+	border: none;
+	color: var(--blue);
+	background-color: white; 
+	cursor: pointer;
+	padding: 0.5em;
+	text-decoration: none; 
+}
+
+#intro {
 	display: grid;
 	min-height: 80vh; 
 	grid-template-columns: 1fr 1fr 1fr;
 	padding: 5rem;
 	grid-gap: 2rem; 
 }
-	#headshot {
-		display: flex;
-		margin: auto;
-	}
-	
+
 	.bio{
 		align-self: center;
 		padding: 10px; 
@@ -100,7 +122,3 @@ footer {
  .Copyright {
 	margin-left: 2rem;
 }
-
-
-
-

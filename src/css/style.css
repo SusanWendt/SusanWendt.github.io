@@ -2,16 +2,22 @@ header {
 	background: linear-gradient(to bottom, aliceblue, silver);
 }
 
+.img-container {
+	display: flex;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+}
+
 #headshot {
 	height: 350px;
 	width: 350px;
 	border-radius: 50%;
-	text-align: center; 
+	margin: auto;
 }
 
 #swlogo {
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 }
 #linkedinicon, #githubicon, #emailicon{
 	height: 150px;
@@ -72,78 +78,4 @@ h4, h5, h6 {
 	border: solid #9CAFB7;
 }
 
-/* solid background color */
-.solid-background {
-    background-color: #C0DFD9;
-    z-index: -2;
-}
 
-
-:root {
-	--blue: #39add1;
-}
-
-.container > header {
-	align-items: center;
-	border-bottom: 1px solid var(--blue);
-	display: flex;
-	justify-content: space-between;
-}
-.container > header nav {
-	margin-right: 1rem;
-	position: relative;
-}
-.container > header nav ul {
-	background-color: white;
-	display: none;
-	left: -47px;
-
-}
-.container > header nav ul li {
-	margin-top: 1rem;
-}
-.container > header nav ul li a {
-	color: var(--blue);
-	padding: 0.5rem 1rem;
-	text-decoration: none;
-}
-.container > header nav ul li.active a {
-	background-color: var(--blue);
-	color: white;
-}
-.container > header nav ul li:first-child {
-	margin-left: 0;
-}
-.nav-menu {
-	border: none;
-	color: var(--blue);
-	background-color: white; 
-	cursor: pointer;
-	padding: 0.5em;
-}
-
-
-
-
-/* fullscreen background image */
-.image-background {
-    background-color: #E9ECE5;
-    background-image: url(../images/galaxy.jpg);
-    background-position: 50% 25%;
-    background-repeat: no-repeat;
-    z-index: -2;
-    min-height: 100vh;
-}
-
-/* repeating pattern overlay over image or solid color */
-[class*='-background'] > .overlay {
-    background-image: url(../images/tileable-wood.png);
-    background-repeat: repeat;
-    height: 105vh;
-    left: -5vw;
-    margin: 0px;
-    position: absolute;
-    top: -5vh;
-    width: 105vw;
-    z-index: -1;
-}

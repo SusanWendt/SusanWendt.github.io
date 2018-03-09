@@ -6,11 +6,11 @@ Professional Portfolio V2 with JS Overview
 Upgraded professional portfolio to include JS content (no frameworks) and meet all previous requirements. 
 
 Tasks
-- [ ] All requirements from iteration one of this project should still be there. You are encouraged to make a multi page site this time around.
+- [X] All requirements from iteration one of this project should still be there. You are encouraged to make a multi page site this time around.
 
 Additions to your site
 - [ ] Add an image carousel. This can be a carousel of screenshots of your projects (perhaps they link to your projects)
-- [ ] Add a button in your navigation that will toggle the visibility of your actual site navigation.
+- [X] Add a button in your navigation that will toggle the visibility of your actual site navigation.
 - [ ] Add a button and collapsable description to your portfolio projects so when the user clicks the button the descriptions expand and collapse
 - [ ] Create a modal box that pops up with your bio information whenever a button or link is pressed
 
