@@ -37,7 +37,7 @@ Using online resources
 
 Rubric
 Score | Description
-------|--------------------------------------
+------ | --------------------------------------
 [x/10] | project hosted on username.github.io
 [x/10] | index.html
 [x/8] | header element
