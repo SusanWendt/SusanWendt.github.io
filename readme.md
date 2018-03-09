@@ -1,6 +1,6 @@
 Professional Portfolio V2 with JS Overview
 
-![Webpage preview](./css/images/webpagepreview.png)
+![Webpage preview](./src/images/webpagepreview.png)
 
 
 Upgraded professional portfolio to include JS content (no frameworks) and meet all previous requirements. 
