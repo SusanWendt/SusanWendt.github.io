@@ -36,8 +36,9 @@ Using online resources
 		-[X] copied to your repository and referenced there rather than via a uri pointing to another site
 
 Rubric
+
 Score | Description
------- | --------------------------------------
+----- | -----------
 [x/10] | project hosted on username.github.io
 [x/10] | index.html
 [x/8] | header element
