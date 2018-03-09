@@ -81,6 +81,12 @@ button:hover{
 	border: solid #9CAFB7;
 }
 
+/* solid background color */
+.solid-background {
+    background-color: #C0DFD9;
+    z-index: -2;
+}
+
 /* fullscreen background image */
 .image-background {
     background-color: #E9ECE5;
@@ -89,12 +95,6 @@ button:hover{
     background-repeat: no-repeat;
     z-index: -2;
     min-height: 100vh;
-}
-
-/* solid background color */
-.solid-background {
-    background-color: #C0DFD9;
-    z-index: -2;
 }
 
 /* repeating pattern overlay over image or solid color */
