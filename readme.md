@@ -1,6 +1,6 @@
 Professional Portfolio Overview
 
-![Webpage preview](images/preview.png)
+![Webpage preview](./images/preview.png)
 
 Create a portfolio site highlighting your work that can be shared with potential employers. Focus first on building a good structure, then later style and lay out with with CSS.
 
