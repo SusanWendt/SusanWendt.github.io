@@ -52,17 +52,33 @@ navElems.forEach(function(navElem) {
     closeButton.addEventListener("click", toggleModal);
     window.addEventListener("click", windowOnClick);
 
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+    this.classList.toggle("expanded");
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
       content.style.display = "none";
     } else {
       content.style.display = "block";
     }
+  });
+}
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("collapsed");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = 80%vh;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
   });
 }

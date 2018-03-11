@@ -10,7 +10,7 @@
 
 .container {
 	display: grid;
-	grid-template-rows: 200px auto 50px;
+	grid-template-rows: 180px auto 50px;
 }
 
 .container > header {
@@ -18,15 +18,13 @@
 	justify-content: space-between;*/
 	display: grid;
 	grid-template-columns: .1fr .8fr .1fr;
-	grid-template-rows: repeat(2, 1fr); 
 	border-bottom: 1px solid dimgray;
 }
 
 .container > header nav {
+	margin-top: 180px; 
 	margin-right: 1rem;
-	position: relative;
-	grid-row: 2/-1; 
-	grid-column: 3/-1;
+	position: absolute;
 }
 
 .container > header nav ul {
@@ -50,7 +48,7 @@
 	margin-left: 0;
 }
 .nav-menu {
-	border: none;
+	border: var(--blue) solid 1px;
 	color: var(--blue);
 	background-color: white; 
 	cursor: pointer;

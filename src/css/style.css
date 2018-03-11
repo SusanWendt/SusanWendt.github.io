@@ -90,7 +90,7 @@ h4, h5, h6 {
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
+.expanded, .collapsible:hover {
   background-color: #ccc;
 }
 
@@ -102,13 +102,33 @@ h4, h5, h6 {
 }
 
 .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '+'; 
     font-size: 13px;
-    color: white;
+    color: dimgray;
     float: right;
     margin-left: 5px;
 }
 
-.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+.expanded:after {
+    content: '-'; 
+}
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+}
+
+.aboutme {
+background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
 }
