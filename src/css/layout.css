@@ -44,9 +44,7 @@
 	background-color: var(--blue);
 	color: white;
 }
-.container > header nav ul li:first-child {
-	margin-left: 0;
-}
+
 .nav-menu {
 	border: var(--blue) solid 1px;
 	color: var(--blue);
@@ -90,21 +88,9 @@
 	justify-content: space-around;
 	list-style-type: none;
 	padding: 2rem; 
-	border: solid dimgray; 
-	border-radius: 10px; 
 }
-	.examples {
-		display: grid;
-		padding: 5rem;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 2rem;
-	}
-		.samplestitle {
-			grid-column: 1/-1;
-		}
 
-		.virtualpets, .fizzbuzz, .reviewsite{ 
-			text-align: center;
+.slideshow-container{ 
 			border: solid dimgray;
 			padding: 5px; 
 			border-radius: 10px; 
@@ -218,7 +204,7 @@ footer {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  top: 0;
 }
 
 /* The dots/bullets/indicators */
