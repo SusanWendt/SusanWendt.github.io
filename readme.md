@@ -33,6 +33,7 @@ Using online resources, any resources (images, etc) you use should be:
 - [X] copied to your repository and referenced there rather than via a uri pointing to another site
  
 Rubric
+
 Category | Max Score
 -------- | ---------
 Project hosted on username.github.io | x/10
@@ -70,6 +71,7 @@ Stretch Goals
 - [ ] Have the dropdown navigation menu only when at smaller viewports and the full navigation when at larger viewports
 
 Rubric
+
 Category | Max Score
 -------- | ---------	
 All previous requirements met | x/10
