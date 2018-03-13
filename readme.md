@@ -1,10 +1,27 @@
+ javascript-version
+Professional Portfolio V2 with JS Overview
+&
 Professional Portfolio V1 Overview
+ master
 
 ![Webpage preview](./images/webpagepreview.png)
 
-Create a portfolio site highlighting your work that can be shared with potential employers. Focus first on building a good structure, then later style and lay out with with CSS.
+
+Upgraded professional portfolio to include JS content (no frameworks) and meet all previous requirements. 
 
 Tasks
+javascript-version
+- [X] All requirements from iteration one of this project should still be there. You are encouraged to make a multi page site this time around.
+
+Additions to your site
+- [X] Add an image carousel. This can be a carousel of screenshots of your projects (perhaps they link to your projects)
+- [X] Add a button in your navigation that will toggle the visibility of your actual site navigation.
+- [X] Add a button and collapsable description to your portfolio projects so when the user clicks the button the descriptions expand and collapse
+- [X] Create a modal box that pops up with your bio information whenever a button or link is pressed
+
+Stretch Goals
+- [ ] Change layout with media queries based on viewport width. Feel free to use other specific media rules but base media queries should be based on viewport width. (Most common)
+- [ ] Have the dropdown navigation menu only when at smaller viewports and the full navigation when at larger viewports
 - [X] First, set up your username.github.io site as per the instructions at https://pages.github.com.
 
 Build the document structure
@@ -33,10 +50,24 @@ Lay out and style your portfolio
 Using online resources, any resources (images, etc) you use should be:
 - [X] free for non-commercial use
 - [X] copied to your repository and referenced there rather than via a uri pointing to another site
+ master
 
 Rubric
 
 Category | Max Score
+ javascript-version
+-------- | ---------	
+All previous requirements met | x/10
+Proper variable names and variable keywords	| x/10
+Properly declared event listeners | x/10
+Proper function declaration | x/10
+Image carousel | x/10
+Navigation menu button | x/10
+Collapsable descriptions | x/10
+Modal box for bio information | x/10
+TDD | x/10
+Style, Formatting, and Code Quality | x/10 
+=======
 -------- | ---------
 Project hosted on username.github.io | x/10
 Index.html | x/10
@@ -50,3 +81,4 @@ About Me Section | x/7
 Footer | x/8
 Appropriate images for content | x/8
 Style/formatting/code quality | x/10
+ master

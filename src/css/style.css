@@ -1,0 +1,135 @@
+header {
+	background: linear-gradient(to bottom, aliceblue, silver);
+}
+
+.img-container {
+	display: flex;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+}
+
+#headshot {
+	height: 350px;
+	width: 350px;
+	border-radius: 50%;
+	margin: auto;
+}
+
+#swlogo {
+	height: 150px;
+	width: 150px;
+}
+#linkedinicon, #githubicon, #emailicon{
+	height: 150px;
+	width: 150px;
+	transition: transform .2s; 
+}
+
+#linkedinicon:hover , #githubicon:hover, #emailicon:hover, #arrow:hover {
+ 	transform: scale(1.25);
+}
+
+#arrow {
+	height: 50px;
+	width: 50px;
+	transition: transform .2s; 
+}
+
+#dog {
+	height: 300px;
+	width: 300px;
+	margin: auto;
+}
+
+.container {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	min-height: 100vh;
+}
+
+h2 {
+	display: flex;
+	justify-content: center; 
+	margin-bottom: 1rem; 
+	font-family: 'Pacifico', serif;
+}
+
+h3 {
+	display: flex;
+	justify-content: center; 
+	margin-bottom: 1rem; 
+}
+
+h1 {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10vmin; 
+	font-family: 'Sacramento', serif;
+}
+
+h4, h5, h6 {
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.expanded, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible:after {
+    content: '+'; 
+    font-size: 13px;
+    color: dimgray;
+    float: right;
+    margin-left: 5px;
+}
+
+.expanded:after {
+    content: '-'; 
+}
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.aboutme {
+background-color: lightgray;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.aboutme:hover {
+background-color: darkgray; 
+	}
+
