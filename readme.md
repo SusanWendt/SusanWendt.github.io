@@ -19,7 +19,7 @@ Build the document structure
 			- [X] contact information
 			- [X] links to your professional networking site profiles, including at least GitHub and LinkedIn
 			- [X] list of skills
-			- [ ] Include whatever other information you consider pertinent.
+			- [X] Include whatever other information you consider pertinent.
 		- [X] Projects, consisting of at least three, each represented as an article
 			- [X] name of project, linked to GitHub repository or the repository/project’s GitHub Pages screenshot
 			- [X] skills / technologies used
