@@ -224,3 +224,15 @@ footer {
 .dotActive, .dot:hover {
   background-color: #717171;
 }
+
+@media only screen and (max-width: 600px)  {
+  #intro {
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  #display{
+    display: none;
+  }
+
+}
