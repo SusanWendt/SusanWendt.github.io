@@ -147,19 +147,17 @@ footer {
     /* Slideshow container */
 .slideshow-container {
 	max-width: 700px;
-  min-height: 75vh; 
-  	position: relative;
-  	margin: auto;
-  	z-index: 0; 
-      border: solid dimgray;
-      padding: 5px; 
-      border-radius: 10px; 
+  position: relative;
+  margin: auto;
+  z-index: 0; 
+  border: solid dimgray;
+  padding: 5px; 
+  border-radius: 10px; 
     }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
-    min-height: 70vh; 
 }
 
 /* Next & previous buttons */
