@@ -35,9 +35,9 @@ header {
 	transition: transform .2s; 
 }
 
-#dog {
-	height: 300px;
-	width: 300px;
+#dog, #osu {
+	height: 250px;
+	width: 250px;
 	margin: auto;
 }
 
