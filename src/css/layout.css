@@ -237,8 +237,8 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
-  #display{
+/*  #display{
     display: none;
-  }
+  }*/
 
 }
