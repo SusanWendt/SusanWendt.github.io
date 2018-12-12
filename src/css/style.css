@@ -22,7 +22,7 @@ header {
 #linkedinicon, #githubicon, #emailicon{
 	height: 150px;
 	width: 150px;
-	transition: transform .2s; 
+	transition: transform .2s;
 }
 
 #linkedinicon:hover , #githubicon:hover, #emailicon:hover, #arrow:hover {
@@ -32,7 +32,7 @@ header {
 #arrow {
 	height: 50px;
 	width: 50px;
-	transition: transform .2s; 
+	transition: transform .2s;
 }
 
 #dog, #osu {
@@ -48,15 +48,15 @@ header {
 
 h2 {
 	display: flex;
-	justify-content: center; 
-	margin-bottom: 1rem; 
+	justify-content: center;
+	margin-bottom: 1rem;
 	font-family: 'Pacifico', serif;
 }
 
 h3 {
 	display: flex;
-	justify-content: center; 
-	margin-bottom: 1rem; 
+	justify-content: center;
+	margin-bottom: 1rem;
 }
 
 h1 {
@@ -64,7 +64,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 10vmin; 
+	font-size: 10vmin;
 	font-family: 'Sacramento', serif;
 }
 
@@ -98,7 +98,7 @@ h4, h5, h6 {
 }
 
 .collapsible:after {
-    content: '+'; 
+    content: '+';
     font-size: 13px;
     color: dimgray;
     float: right;
@@ -106,7 +106,7 @@ h4, h5, h6 {
 }
 
 .expanded:after {
-    content: '-'; 
+    content: '-';
 }
 
 .content {
@@ -130,9 +130,20 @@ background-color: lightgray;
 }
 
 .aboutme:hover {
-background-color: darkgray; 
+background-color: darkgray;
 	}
 
+	downArrow {
+	  border: solid darkgray;
+	  border-width: 0 3px 3px 0;
+	  display: inline-block;
+	  padding: 3px;
+	}
+
+	.down {
+	  transform: rotate(45deg);
+	  -webkit-transform: rotate(45deg);
+	}
 
 @media only screen and (max-width: 640px)  {
 

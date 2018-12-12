@@ -5,7 +5,7 @@
 }
 
 :root {
-	--blue: #39add1;
+	--purple: #4E3A76;
 }
 
 .container {
@@ -20,8 +20,8 @@
 }
 
 .container > header nav {
-	margin-top: 180px; 
-	margin-right: 1rem;
+	margin-top: 155px;
+	margin-left: 2rem;
 	position: absolute;
 }
 
@@ -34,64 +34,67 @@
 	list-style: none;
 }
 .container > header nav ul li a {
-	color: var(--blue);
+	color: var(--purple);
 	padding: 0.5rem 1rem;
 	text-decoration: none;
 }
 .container > header nav ul li.active a {
-	background-color: var(--blue);
+	background-color: var(--purple);
 	color: white;
 }
 
 .nav-menu {
-	border: var(--blue) solid 1px;
-	color: var(--blue);
-	background-color: white; 
+	border: var(--purple) solid 1px;
+	color: darkgray;
+	background-color: white;
 	cursor: pointer;
-	padding: 0.5em;
-	text-decoration: none; 
+	padding: 0.3em;
+	text-decoration: none;
+  font-size: 4vmin;
+  font-family: 'Pacifico', serif;
+
 }
 
 #intro {
 	display: grid;
-	min-height: 80vh; 
+	min-height: 80vh;
 	grid-template-columns: 1fr 1fr 1fr;
 	padding: 5rem;
-	grid-gap: 2rem; 
+	grid-gap: 2rem;
 }
 
 	.bio{
 		align-self: center;
-		padding: 10px; 
+		padding: 10px;
 	}
 
 	.skills{
 		text-align: center;
 		align-self: center;
-		padding: 10px; 
+		padding: 10px;
 	}
 		.skills ul {
-			list-style-type: none; 
+			list-style-type: none;
 		}
 
-#contact { 
-	align-self: center; 
+#contact {
+	align-self: center;
  	min-height: 50vh;
- 	padding: 5rem; 
+ 	padding: 5rem;
  }
 
  .contactinfo ul {
 	display: flex;
-	flex-direction: row; 
+	flex-direction: row;
 	justify-content: space-around;
 	list-style-type: none;
-	padding: 2rem; 
+	padding: 2rem;
 }
 
 
 
-footer { 
-	display: flex; 
+footer {
+	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	align-items: flex-end;
@@ -112,7 +115,7 @@ footer {
         visibility: hidden;
         transform: scale(1.1);
         transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
-        z-index: 1; 
+        z-index: 1;
     }
     .modal-content {
         position: absolute;
@@ -126,11 +129,11 @@ footer {
     }
     .modal-text{
         display: grid;
-        grid-template-rows: repeat(3fr, 1fr); 
+        grid-template-rows: repeat(3fr, 1fr);
         grid-template-columns: repeat(2, 1fr);
         align-self: center;
         text-align: center;
-        grid-gap: 10px; 
+        grid-gap: 10px;
     }
     .close-button {
         float: right;
@@ -156,16 +159,16 @@ footer {
 	max-width: 700px;
   position: relative;
   margin: auto;
-  z-index: 0; 
+  z-index: 0;
   border: solid dimgray;
-  padding: 5px; 
-  border-radius: 10px; 
+  padding: 5px;
+  border-radius: 10px;
     }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
-    margin-top: 25px; 
+    margin-top: 25px;
 }
 
 /* Next & previous buttons */
@@ -233,7 +236,7 @@ footer {
 
 @media only screen and (max-width: 768px)  {
   #intro {
-    display: grid; 
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
