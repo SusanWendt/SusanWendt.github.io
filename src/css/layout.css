@@ -11,6 +11,7 @@
 .container {
     display: grid;
     grid-template-rows: 180px auto 50px;
+    grid-gap: 10px;
 }
 
 .container > header {
@@ -60,7 +61,6 @@
 
 #intro {
     display: grid;
-    min-height: 80vh;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 5rem;
     grid-gap: 2rem;
