@@ -5,165 +5,183 @@
 }
 
 :root {
-	--purple: #4E3A76;
+    --purple: #4E3A76;
 }
 
 .container {
-	display: grid;
-	grid-template-rows: 180px auto 50px;
+    display: grid;
+    grid-template-rows: 180px auto 50px;
 }
 
 .container > header {
-	display: grid;
-	grid-template-columns: .1fr .8fr .1fr;
-	border-bottom: 1px solid dimgray;
+    display: grid;
+    grid-template-columns: .1fr .8fr .1fr;
+    border-bottom: 1px solid dimgray;
 }
 
 .container > header nav {
-	margin-top: 155px;
-	margin-left: 2rem;
-	position: absolute;
+    margin-top: 155px;
+    margin-left: 2rem;
+    position: absolute;
 }
 
 .container > header nav ul {
-	background-color: white;
-	display: none;
+    background-color: white;
+    display: none;
 }
+
 .container > header nav ul li {
-	margin-top: 1rem;
-	list-style: none;
+    margin-top: 1rem;
+    list-style: none;
 }
+
 .container > header nav ul li a {
-	color: var(--purple);
-	padding: 0.5rem 1rem;
-	text-decoration: none;
+    color: var(--purple);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
 }
+
 .container > header nav ul li.active a {
-	background-color: var(--purple);
-	color: white;
+    background-color: var(--purple);
+    color: white;
 }
 
 .nav-menu {
-	border: var(--purple) solid 1px;
-	color: darkgray;
-	background-color: white;
-	cursor: pointer;
-	padding: 0.3em;
-	text-decoration: none;
-  font-size: 4vmin;
-  font-family: 'Pacifico', serif;
+    border: var(--purple) solid 1px;
+    color: darkgray;
+    background-color: white;
+    cursor: pointer;
+    padding: 0.3em;
+    text-decoration: none;
+    font-size: 4vmin;
+    font-family: 'Pacifico', serif;
 
 }
 
 #intro {
-	display: grid;
-	min-height: 80vh;
-	grid-template-columns: 1fr 1fr 1fr;
-	padding: 5rem;
-	grid-gap: 2rem;
+    display: grid;
+    min-height: 80vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5rem;
+    grid-gap: 2rem;
 }
 
-	.bio{
-		align-self: center;
-		padding: 10px;
-	}
+.about-me {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% auto auto;
+}
 
-	.skills{
-		text-align: center;
-		align-self: center;
-		padding: 10px;
-	}
-		.skills ul {
-			list-style-type: none;
-		}
+.about-me-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% auto;
+}
+
+.all-skills{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
 
 #contact {
-	align-self: center;
- 	min-height: 50vh;
- 	padding: 5rem;
- }
-
- .contactinfo ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	list-style-type: none;
-	padding: 2rem;
+    align-self: center;
+    min-height: 50vh;
+    padding: 5rem;
 }
 
+.contact-info ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 2rem;
+}
 
 
 footer {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	align-items: flex-end;
- }
-
- .Copyright {
-	margin-left: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
- .modal {
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        opacity: 0;
-        visibility: hidden;
-        transform: scale(1.1);
-        transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
-        z-index: 1;
-    }
-    .modal-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: white;
-        padding: 1rem 1.5rem;
-        width: 45rem;
-        border-radius: 0.5rem;
-    }
-    .modal-text{
-        display: grid;
-        grid-template-rows: repeat(3fr, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-        align-self: center;
-        text-align: center;
-        grid-gap: 10px;
-    }
-    .close-button {
-        float: right;
-        width: 1.5rem;
-        line-height: 1.5rem;
-        text-align: center;
-        cursor: pointer;
-        border-radius: 0.25rem;
-        background-color: lightgray;
-    }
-    .close-button:hover {
-        background-color: darkgray;
-    }
-    .show-modal {
-        opacity: 1;
-        visibility: visible;
-        transform: scale(1.0);
-        transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
-    }
+.Copyright {
+    margin-left: 2rem;
+}
 
-    /* Slideshow container */
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    z-index: 1;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 45rem;
+    border-radius: 0.5rem;
+}
+
+.modal-text {
+    display: grid;
+    grid-template-rows: repeat(3fr, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    text-align: center;
+    grid-gap: 10px;
+}
+
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.close-button:hover {
+    background-color: darkgray;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+/* Slideshow container */
 .slideshow-container {
-	max-width: 700px;
-  position: relative;
-  margin: auto;
-  z-index: 0;
-  border: solid dimgray;
-  padding: 5px;
-  border-radius: 10px;
-    }
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    border: solid dimgray;
+    padding: 5px;
+    border-radius: 10px;
+}
 
 /* Hide the images by default */
 .mySlides {
@@ -173,75 +191,72 @@ footer {
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
 .text {
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
-  color: dimgray;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  left: 0;
+.number-text {
+    color: dimgray;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    left: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor:pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .dotActive, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 
-@media only screen and (max-width: 768px)  {
-  #intro {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-/*  #display{
-    display: none;
-  }*/
+@media only screen and (max-width: 1200px) {
+    #intro {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
 
 }
