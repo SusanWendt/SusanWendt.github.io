@@ -7,7 +7,6 @@ header {
 }
 
 #headshot {
-
     border-radius: 50%;
     margin: auto;
 }
@@ -146,12 +145,3 @@ downArrow {
     -webkit-transform: rotate(45deg);
 }
 
-@media only screen and (max-width: 640px) {
-
-    #headshot {
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-        margin: auto;
-    }
-}
