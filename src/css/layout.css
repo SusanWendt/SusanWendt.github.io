@@ -10,85 +10,39 @@
 
 .container {
     display: grid;
-    grid-template-rows: 180px auto 50px;
+    grid-template-rows: .1fr auto .1fr;
     grid-gap: 10px;
 }
 
 .container > header {
     display: grid;
     grid-template-columns: .1fr .8fr .1fr;
-    border-bottom: 1px solid dimgray;
 }
 
-.container > header nav {
-    margin-top: 155px;
-    margin-left: 2rem;
-    position: absolute;
-}
-
-.container > header nav ul {
-    background-color: white;
-    display: none;
-}
-
-.container > header nav ul li {
-    margin-top: 1rem;
-    list-style: none;
-}
-
-.container > header nav ul li a {
-    color: var(--purple);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-}
-
-.container > header nav ul li.active a {
-    background-color: var(--purple);
-    color: white;
-}
-
-.nav-menu {
-    border: var(--purple) solid 1px;
-    color: darkgray;
-    background-color: white;
-    cursor: pointer;
-    padding: 0.3em;
-    text-decoration: none;
-    font-size: 4vmin;
-    font-family: 'Pacifico', serif;
-
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
 #intro {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 5rem;
     grid-gap: 2rem;
 }
-
-.about-me {
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% auto auto;
+.bio {
+    padding: 5px;
+}
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.about-me-button-container {
+.button-container {
     display: flex;
     justify-content: center;
-}
-
-.skills {
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% auto;
-}
-
-.all-skills{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto;
+    align-self: center;
 }
 
 #contact {
@@ -260,8 +214,7 @@ footer {
     }
 
     #headshot {
-        height: 50%;
-        width: 50%;
+        size: auto;
         border-radius: 50%;
         margin: auto;
     }

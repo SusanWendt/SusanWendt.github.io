@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Susan Wendt</title>
+    <title>Susan Wendt: Software Developer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,37 +9,37 @@
     <link href="./src/css/layout.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alice|Sacramento" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arimo|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 <div class="container">
-    <header id="top">
-        <a href="index.html"><img id="swlogo" src="images/logos/sw-logo.png" alt="no image found"></a>
-        <p class="susan-wendt">Susan Wendt</p>
-        <nav>
-            <button class="nav-menu">menu
-                <downArrow class="arrow down"></downArrow>
-            </button>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-skills">My Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact </a></li>
-                <li><a href="resume.html">My Resume</a></li>
-            </ul>
-        </nav>
+    <header>
+        <div class="dropdown">
+                <button onclick="drpDwnToggle()" class="dropbtn"><i class="fa fa-bars"></i>Menu </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#about-me">About Me</a>
+                    <a href="#my-skills">My Skills</a>
+                    <a href="resume.html" target="_blank">My Resume</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact </a>
+                </div>
+            </div>
+        <div class="header-info">
+            <h1 class="susan-wendt">Susan Wendt</h1>
+            <h2 class="role">Full Stack Developer</h2>
+        </div>
     </header>
     <main>
-        <section id="intro">
+        <div id="intro">
             <div class="img-container">
                 <img id="headshot" src="images/suze/Susie-CMM-2019.jpg" alt="no image found">
             </div>
             <div id="about-me" class="about-me">
-                <h2>About Me</h2>
+                <h3>ABOUT ME</h3>
                 <div class="bio">
-                    <p>
-                        Hello!
-                    </p>
+                    <p>Hello!</p>
+                    <br/>
                     <p>
                         I am a Software Developer currently working at CoverMyMeds in Columbus, Ohio.
                         I began computer programming in early 2018 when I enrolled in the Coding BootCamp: We Can Code
@@ -57,8 +57,8 @@
                         for the opportunity to tackle new coding challenges.
                     </p>
                 </div>
-                <div class="about-me-button-container">
-                    <button class="about-me-button">Learn more about me</button>
+                <div class="button-container">
+                    <button class="button">More Info</button>
                 </div>
                 <div class="modal">
                     <div class="modal-content">
@@ -72,53 +72,49 @@
                         </div>
                     </div>
                 </div>
-            </div><!-- end class about-me -->
-            <div id="my-skills" class="skills">
-                <h2>Skills</h2>
+            </div>
+            <div class="my-skills">
+                <h3>SKILLS</h3>
+                <br/>
                 <div class="all-skills">
                     <div class="skill-items">
-                        <h4>Languages</h4>
-                        <ul>
-                            <li>Ruby</li>
-                            <li>Java</li>
-                            <li>JavaScript, HTML, CSS</li>
-                            <li>SQL</li>
-                            <br />
-                        </ul>
-                    </div>
-                    <div class="skill-items">
-                        <h4>Frameworks</h4>
-                        <ul>
+                        <h4>Languages & Frameworks</h4>
+                        <p>
                             <li>Ruby on Rails</li>
-                            <li>Spring Boot</li>
-                            <li>Vue.js</li>
-                            <br />
-                        </ul>
+                            <li>Java, SpringBoot</li>
+                            <li>JavaScript, Vue.js</li>
+                            <li>HTML, CSS, SQL</li>
+                        </p>
                     </div>
+                    <br/>
                     <div class="skill-items">
-                        <h4>Tools</h4>
-                        <ul>
-                            <li>Database: Postgres, MSSQL, Cassandra/NoSQL</li>
-                            <li>Error Logging: Splunk, Sentry, Grafana</li>
-                            <li>Testing: Jenkins, Selenium</li>
-                            <li>Etc: Docker, Kafka</li>
-                            <br />
-                        </ul>
+                        <h4>Skills & Tools</h4>
+                        <p>
+                            <li>Testing: Unit Testing, e2e Automated Testing</li>
+                            <li>Versioning: Git, GitHub, Jira</li>
+                            <li>APMs: Grafana, NewRelic, DataDog</li>
+                            <li>Error Logging: Sentry, Splunk</li>
+                            <li>CI/CD: Docker, Jenkins</li>
+                        </p>
                     </div>
+                    <br/>
                     <div class="skill-items">
                         <h4>Environment</h4>
-                        <ul>
-                            <li>Scrum: Agile & KanBan</li>
-                            <li>Test Driven Development</li>
+                        <p>
+                            <li>Agile: Scrum & KanBan</li>
+                            <li>Test Driven Development (TDD)</li>
                             <li>Pair Programming</li>
                             <br />
-                        </ul>
+                        </p>
+                    </div>
+                    <div class="button-container">
+                        <a href="resume.html" target="_blank" class="button">Resume</a>
                     </div>
                 </div>
-            </div> <!-- introtext end-->
-        </section> <!-- end intro section -->
-        <div id="projects"><h2>Project Previews</h2>
-
+            </div>
+        </div>
+        <div id="projects">
+            <h2>CODING PROJECTS</h2>
             <div class="slideshow-container">
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
@@ -126,7 +122,7 @@
                     <img src="images/projects/portfolio-preview.png" style="width:100%">
                     <div class="text">Portfolio</div>
                     <button class="collapsible">Description</button>
-                    <div class="content">
+                    <div class="project-content">
                         <p>
                             Whoa... some portfolio inception. The website that you are viewing right now is a project
                             that I
@@ -145,7 +141,7 @@
                     <img src="images/projects/workout-reviews-fullstack.png" style="width:100%">
                     <div class="text">ReviewSite</div>
                     <button class="collapsible">Description</button>
-                    <div class="content">
+                    <div class="project-content">
                         <p>This is a website built using Spring Web MVC for linking Java to HTML. The CSS is minimal as
                             the
                             focus was learning SpringBoot. I decided to review various yoga sources including journals,
@@ -160,7 +156,7 @@
                     <img src="images/projects/fizzbuzz.png" style="width:100%">
                     <div class="text">Fizz Buzz</div>
                     <button class="collapsible">Description</button>
-                    <div class="content">
+                    <div class="project-content">
                         <p>Classic exercise to demonstrate Test Driven Development. User counts from one to one hundred
                             with
                             a catch. For all multiples of three, the player must say "Fizz", and for all multiples of
@@ -178,7 +174,7 @@
                     <img src="images/projects/virtual-pets-amok.png" style="width:100%">
                     <div class="text">Virtual Pets Amok</div>
                     <button class="collapsible">Description</button>
-                    <div class="content">
+                    <div class="project-content">
                         <p>In this application there are regular organic pets and robotic pets. All of the dogs, both
                             organic and robotic, can be walked at the same time, but each dog has its own cage. The cats
                             share a common sleeping area and use one litter box. All of the pets have a scored health
@@ -205,8 +201,8 @@
                 <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </div>
-        <section id="contact" class="contact-info">
-            <h2>Let's Stay in Touch...</h2>
+        <div id="contact" class="contact-info">
+            <h2>CONTACT</h2>
             <ul>
                 <li><a href="mailto:susanhwendt@gmail.com?Subject=Hello"><img id="email-icon"
                                                                               src="images/icons/email.png"></a></li>
@@ -216,13 +212,13 @@
                 <li><a href="https://github.com/SusanWendt" target="_blank"><img id="github-icon"
                                                                                  src="images/icons/github.png"></a></li>
             </ul>
-        </section> <!-- end contact-info section -->
+        </div>
     </main>
     <footer>
         <a href="#top"><img id="arrow" src="images/icons/arrow.png"></a>
         <span class="Copyright">&copy; 2020 Susan Wendt</span>
     </footer>
-</div> <!-- /.container -->
+</div>
 <script src="./src/js/app.js"></script>
 </body>
 </html>

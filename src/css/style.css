@@ -1,7 +1,3 @@
-header {
-    background: linear-gradient(to bottom, aliceblue, silver);
-}
-
 .img-container {
     display: flex;
 }
@@ -11,9 +7,10 @@ header {
     margin: auto;
 }
 
-#swlogo {
-    height: 150px;
-    width: 150px;
+#dog, #osu {
+    height: 250px;
+    width: 250px;
+    margin: auto;
 }
 
 #linkedin-icon, #github-icon, #email-icon {
@@ -32,12 +29,6 @@ header {
     transition: transform .2s;
 }
 
-#dog, #osu {
-    height: 250px;
-    width: 250px;
-    margin: auto;
-}
-
 .container {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     min-height: 100vh;
@@ -47,7 +38,6 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
-    font-family: 'Pacifico', serif;
 }
 
 h3 {
@@ -56,21 +46,28 @@ h3 {
     margin-bottom: 1rem;
 }
 
-.susan-wendt {
-    color: #4E3A76;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5vmax;
-    font-weight: bolder;
-    font-family: 'Sacramento', serif;
-}
-
 h4, h5, h6 {
     display: flex;
     justify-content: flex-start;
 }
 
+
+.susan-wendt {
+    color: var(--purple);
+    display: flex;
+    justify-content: center;
+    font-size: 6vmax;
+    font-weight: bolder;
+    /*font-family: 'Sacramento', serif;*/
+}
+
+.role {
+    color: var(--purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmax;
+}
 
 .collapsible {
     background-color: #eee;
@@ -88,13 +85,6 @@ h4, h5, h6 {
     background-color: #ccc;
 }
 
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-}
-
 .collapsible:after {
     content: '+';
     font-size: 20px;
@@ -108,29 +98,71 @@ h4, h5, h6 {
     content: '-';
 }
 
-.content {
+.project-content {
     padding: 0 18px;
-    background-color: white;
-    max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
 }
 
-.about-me-button {
+.button {
     background-color: lightgray;
     cursor: pointer;
     padding: 15px;
     height: min-content;
     border: none;
     border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #4E3A76;
 }
 
-.skills ul {
-    list-style-type: none;
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: var(--purple);
+    padding: 16px;
+    font-size: 16px;
+    border: solid 2px var(--purple);
 }
 
-.about-me-button:hover {
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color: var(--purple);
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.show {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+        background-color: var(--purple);
+    color: white;
+    }
+
+.button:hover {
     background-color: darkgray;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 downArrow {
@@ -145,3 +177,6 @@ downArrow {
     -webkit-transform: rotate(45deg);
 }
 
+.skills ul {
+    list-style-type: none;
+}

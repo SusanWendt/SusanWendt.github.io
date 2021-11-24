@@ -1,41 +1,31 @@
-// Display navigation when menu button is clicked
-const menuButton = document.querySelector('.nav-menu');
-menuButton.addEventListener('click', function () {
-    var menuList = document.querySelector('nav ul');
-    if (menuList.style.display === "block") {
-        menuList.style.display = "none";
-    } else {
-        menuList.style.display = "block";
-    }
-});
+// menu icon
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function drpDwnToggle(x) {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-
-//making nav links active on click
-const navElems = document.querySelectorAll('nav ul li');
-// Remove 'active' class from other navigation elements when one is clicked
-navElems.forEach(function (navElem) {
-    navElem.addEventListener('mouseover', function () {
-        navElems.forEach(function (navElem) {
-            navElem.classList.remove('active')
-        })
-// Add 'active' class to navigation elements when they are clicked
-        this.classList.add('active');
-        navElems.forEach(function (navElem) {
-            if (!navElem.classList.contains('active')) {
-                navElem.style.opacity = '1'
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
             }
-        })
-    })
+        }
+    }
+}
 
-    navElem.addEventListener('mouseout', function () {
-        navElems.forEach(function (navElem) {
-            navElem.style.opacity = '1';
-        })
-    })
-})
+// function menuToggle(x) {
+//     x.classList.toggle("change");
+// }
 
+// modal
 var modal = document.querySelector(".modal");
-var trigger = document.querySelector(".about-me-button");
+var trigger = document.querySelector(".button");
 var closeButton = document.querySelector(".close-button");
 
 function toggleModal() {
@@ -52,7 +42,7 @@ trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
 
-
+// slides
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -68,15 +58,12 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function () {
         this.classList.toggle("collapsed");
         var content = this.nextElementSibling;
         if (content.style.maxHeight) {
-            content.style.maxHeight = 80 % vh;
+            content.style.maxHeight = 80;
         } else {
             content.style.maxHeight = content.scrollHeight + "px";
         }
